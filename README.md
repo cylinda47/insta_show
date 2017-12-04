@@ -9,8 +9,8 @@ InstaShow is an interactive tool that allows user to click on anywhere on a spin
 In InstaShow, users will be able to:
 
 - [ ] Click on any country/city from a spinnable colored globe, and
-- [ ] Get a grid of most recent  photos
-- [ ] Get push update from Instagram and display new photos in that location
+- [ ] Get a grid of most recent photos
+- [ ] Get push update from Instagram subscription and display new photos in that location
 - [ ] Photos re-sorting animations whenever there is a new photo feed
 
 ## Wireframe
@@ -54,9 +54,15 @@ In addition to the webpack entry file, there will be four scripts involved in th
 **Day 2: Instagram data**
 
 - [ ] Style the globe
-- [ ] Importing photos using `instagram API`
+- [ ] Import photos using `instagram API`
 - [ ] Enable search query based on latitude and longitude
 
 **Day 3: Topology Integration with Instagram data**
 
+- [ ] Enable ajax request to Instagram server with the location parameters when user click on a selectable part of the globe
+- [ ] Display the incoming photos
+
 **Day 4: Live feed from location**
+
+- [ ] Setup the node server for receiving Instagram subscription
+- [ ] Append incoming photos to the frontend page
