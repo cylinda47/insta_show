@@ -24,6 +24,8 @@ This app will consist of two parts - a map/globe simulation and a grid of live p
 This project will be implemented with the following technologies:
 
 * Vanilla JavaScript for overall structure and game logic
+
+* `node.js` for backend request handling
 * `D3` for data visualization
 * `topojson` for generating topology
 * `Instagram API` for querying photos based on location & get push updates
