@@ -47,22 +47,22 @@ In addition to the webpack entry file, there will be four scripts involved in th
 
 **Day 1: Topology**
 
-- [ ] Setup all necessary Node modules, including getting webpack up and running.
-- [ ] Start creating a basic topology using `topojson`
-- [ ] Load map data using `d3`
+- [X] Setup all necessary Node modules, including getting webpack up and running.
+- [X] Start creating a basic topology using `topojson`
+- [X] Load map data using `d3`
 
 **Day 2: Instagram data**
 
-- [ ] Style the globe
-- [ ] Import photos using `instagram API`
-- [ ] Enable search query based on latitude and longitude
+- [X] Style the globe
+- [X] Import photos using `instagram API`
+- [X] Enable search query based on latitude and longitude
 
 **Day 3: Topology Integration with Instagram data**
 
-- [ ] Enable ajax request to Instagram server with the location parameters when user click on a selectable part of the globe
-- [ ] Display the incoming photos
+- [X] Enable ajax request to Instagram server with the location parameters when user click on a selectable part of the globe
+- [X] Display the incoming photos
 
 **Day 4: Live feed from location**
 
-- [ ] Setup the node server for receiving Instagram subscription
-- [ ] Append incoming photos to the frontend page
+- [X] Setup the node server for receiving Instagram subscription
+- [X] Append incoming photos to the frontend page
